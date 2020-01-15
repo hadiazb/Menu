@@ -64,21 +64,27 @@ body{
   padding: 15%;
   text-align: center;
 }
+.main_section h1{
+  font-size: 2.5em;
+}
 .products{
   background-image: url('../images/curve.png');
   background-size: cover;
   background-position: center top;
   display: flex;
+  justify-content: space-around;
   padding: 15%;
 }
 .product{
   padding: 15px;
-  margin-top: -170px;
+  margin-top: -350px;
+  width: 350px;
 }
 .contenido{
   padding: 20px;
   background-color: var(--white-color);
   box-shadow: 0 0 2px #c1bcbc;
+  height: 320px;
 }
 .contenido h1{
   margin: .67em 0;
@@ -102,4 +108,67 @@ body{
 }
 .buttom:hover{
   background-color: #5e9e22;
+}
+/* Otros productos */
+.container{
+  height: auto;
+  width: 100%;
+  /* position: absolute; */
+}
+.box{
+  height: auto;
+  margin: 10%;
+  display: flex;
+}
+.caja{
+  text-align: center;
+  margin: 20px;
+}
+.caja h2{
+  text-align: left;
+  margin: 10px 20px;
+}
+.caja p{
+  text-align: left;
+  margin: 10px 20px;
+}
+/* menciones */
+.menciones{
+  margin: auto 12%;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 40px;
+}
+.person{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.person-{
+  margin: 0 10px 50px;
+  box-shadow: 0 0 2px rgb(100, 100, 103);
+}
+.person- h2{
+  text-align: left;
+  margin: 10px 10px;
+}
+.person- p{
+  text-align: left;
+  margin: 10px 10px;
+}
+/* footer */
+footer{
+  background-color:  rgb(49, 51, 55);
+  padding: 20px 0;
+}
+footer ul {
+  margin: auto 2%;
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+}
+footer ul > li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
