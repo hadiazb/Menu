@@ -6,6 +6,12 @@
 #  \___/____/____/··
 #  ·················
 */
+/* Variables */
+:root{
+  --green-color: rgb(122, 204, 45);
+  --white-color: rgb(255, 255, 255);
+  --black-color: rgb(0, 0, 0);
+}
 *{
   box-sizing: border-box;
   margin: 0;
@@ -19,7 +25,7 @@ body{
 .nav{
   width: 100%;
   height: auto;
-  background-color: rgb(122, 204, 45);
+  background-color: var(--green-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,7 +43,7 @@ body{
 }
 .nav .menu ul li a{
   text-decoration: none;
-  color: rgb(0,0,0);
+  color: var(--black-color);
   font-size: 1em;
   text-align: left;
 }
@@ -49,7 +55,7 @@ body{
   align-items: center;
 }
 .nav .menu ul li a:hover{
-  color: rgb(246, 246, 246);
+  color: var(--white-color);
 }
 
 /* Section */
@@ -66,16 +72,34 @@ body{
   padding: 15%;
 }
 .product{
-  padding: 10px;
-  height: 200px;
+  padding: 15px;
+  margin-top: -170px;
 }
 .contenido{
   padding: 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--white-color);
+  box-shadow: 0 0 2px #c1bcbc;
 }
 .contenido h1{
   margin: .67em 0;
 }
 .contenido p{
   margin: 1em 0;
+}
+.img_content{
+  text-align: center;
+}
+.buttom{
+  width: 100%;
+  background-color: var(--green-color);
+  color: white;
+  padding: 10px;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+  font-size: 12px;
+  outline: none;
+}
+.buttom:hover{
+  background-color: #5e9e22;
 }
