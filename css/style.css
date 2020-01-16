@@ -22,6 +22,9 @@ body{
   font-family: Helvetica;
   background-color: white;
 }
+
+
+/*-------------------------------------- Barra de Navegación */
 .nav{
   width: 100%;
   height: auto;
@@ -58,8 +61,10 @@ body{
   color: var(--white-color);
 }
 
-/* Section */
 
+
+
+/* -----------------------------------------------Section */
 .main_section{
   padding: 15%;
   text-align: center;
@@ -72,13 +77,14 @@ body{
   background-size: cover;
   background-position: center top;
   display: flex;
-  justify-content: space-around;
-  padding: 15%;
+  justify-content: center;
+  padding: 10% auto ;
 }
 .product{
-  padding: 15px;
-  margin-top: -350px;
-  width: 350px;
+  padding: 10px;
+  margin-top: -50px;
+  width: 35%;
+  height: inherit;
 }
 .contenido{
   padding: 20px;
@@ -109,20 +115,22 @@ body{
 .buttom:hover{
   background-color: #5e9e22;
 }
-/* Otros productos */
+/*------------------------------------------ Otros productos */
 .container{
   height: auto;
   width: 100%;
-  /* position: absolute; */
 }
 .box{
-  height: auto;
-  margin: 10%;
+  margin: 10px ;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .caja{
   text-align: center;
   margin: 20px;
+  width: 300px;
 }
 .caja h2{
   text-align: left;
@@ -157,7 +165,7 @@ body{
   text-align: left;
   margin: 10px 10px;
 }
-/* footer */
+/* ---------------------------------------------- footer */
 footer{
   background-color:  rgb(49, 51, 55);
   padding: 20px 0;
