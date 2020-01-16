@@ -1,0 +1,55 @@
+@media screen and (max-width:600px){
+  .main_section{
+    font-size: .8em;
+  }
+  .products{
+    display: block;
+    padding: 5% auto 10% ;
+    font-size: 1em;
+  }
+  .product{
+    padding: 10px;
+    margin: -10% auto 10%;
+    width: 70%;
+  }
+
+  .box{
+    height: auto;
+    margin: 10%;
+    display: block;
+  }
+  .caja{
+    width: 90%;
+    font-size: 1em;
+  }
+  .person-{
+    width: 300px;
+  }
+  .foto img{
+    width: 300px;
+  }
+}
+
+
+@media screen and (max-width:400px){
+  .products{
+    display: inherit;
+  }
+
+  .main_section{
+    font-size: .5em;
+  }
+}
+
+@media screen and (max-width:320px){
+  .products{
+    display: inherit;
+  }
+
+  .main_section{
+    font-size: .5em;
+  }
+  .caja .img img{
+    width: 180px;
+  }
+}
