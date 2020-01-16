@@ -142,20 +142,26 @@ body{
 }
 /* menciones */
 .menciones{
-  margin: auto 12%;
+  /* margin: auto 12%; */
 }
 .title{
   text-align: center;
   margin: 0 auto 40px;
 }
 .person{
+  margin: 0 20px 30px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
 }
 .person-{
-  margin: 0 10px 50px;
   box-shadow: 0 0 2px rgb(100, 100, 103);
+  width: 300px;
+  margin: 5px;
+}
+.foto img{
+  width: 300px;
 }
 .person- h2{
   text-align: left;
