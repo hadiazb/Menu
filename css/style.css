@@ -178,8 +178,35 @@ body{
   box-shadow: var(--sombra-caja);
   padding: 10px;
 }
-
-
+.data{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+}
+.modulo_pago .main_btn{
+  margin-top: 10px;
+}
+.main_btn{
+  width: 100%;
+  height: 40px;
+  background-color: var(--green-color);
+  border: 0;
+  color: white;
+  border-radius: 5px;
+}
+.modulo_pago input{
+  height: 35px;
+}
+.fondo{
+  margin:113.5px 25%;
+}
+.fondo .modulo_pago img{
+  width: 80%;
+  margin: 10%;
+}
 
 /* ---------------------------------------------- footer */
 footer{
