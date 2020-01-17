@@ -197,17 +197,39 @@ body{
   color: white;
   border-radius: 5px;
 }
+.main_btn:hover{
+  background-color:  #5e9e22;
+}
 .modulo_pago input{
   height: 35px;
 }
 .fondo{
-  margin:113.5px 25%;
+  margin:5% 25%;
+  height: 62.3vh;
 }
 .fondo .modulo_pago img{
   width: 80%;
   margin: 10%;
 }
-
+/* ------------------------------------------------Exito */
+.fondito{
+  height: 100vh;
+  background-color: rgb(0, 0, 0, .95);
+  text-align: center;
+  padding-top: 20vh;
+}
+.fondito .letter{
+  color: white;
+}
+.fondito span{
+  color: var(--green-color);
+}
+.fondito a{
+  text-decoration: none;
+}
+.fondito img{
+  width: 200px;
+}
 /* ---------------------------------------------- footer */
 footer{
   background-color:  rgb(49, 51, 55);
